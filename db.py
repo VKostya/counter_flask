@@ -3,7 +3,7 @@ import psycopg2
 
 def get_db_connection():
     conn = psycopg2.connect(
-        host="lab_5-db-1", database="counterdb", user="flask", password="flask"
+        host="db", database="counterdb", user="flask", password="flask"
     )
     return conn
 
